@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+
+<!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <title>Coffe-Home</title>
+
+    <link rel="manifest" href="./manifest.json">
+    
+    
+<!-- Soporte de logos ios-->
+    <!-- <link rel="apple-touch-icon" href="./imagenes/logo72x72.png">
+    <link rel="apple-touch-icon" href="./imagenes/logo96x96.png">
+    <link rel="apple-touch-icon" href="./imagenes/logo128x128.png">
+    <link rel="apple-touch-icon" href="./imagenes/logo144x144.png">
+    <link rel="apple-touch-icon" href="./imagenes/logo152x152.png">
+    <link rel="apple-touch-icon" href="./imagenes/logo192x192.png">
+    <link rel="apple-touch-icon" href="./imagenes/logo345x345.png">
+    <link rel="apple-touch-icon" href="./imagenes/logo512x512.png">
+
+    <meta name="theme-color" content="#920000"/>
+ -->
+
+
+<!--Iconos-->
+<script src="https://kit.fontawesome.com/31a1aeadf9.js" crossorigin="anonymous"></script>
+   
+<style>
+ 
+</style>
+
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a class="navbar-brand" href="./index.html">
+            <img src="./imagenes/logo.png" alt="starbucks" width="80" height="80">
+        </a>
+        
+        <ul>
+          <ul>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./receta.html">Cafes</a></li>
+            <li><a href="#footer">Redes</a></li>
+            
+            
+          </ul>
+        </ul>
+      </nav>
+
+     
+    <div>
+        <h1>Blog</h1>
+        <p>En este blog vas a estar siempre actualizado</p>
+        <p>Dejanos tu comentario al final de las noticias para seguir mejorando</p>
+    </div>
+<!--NOTICIAS-->
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./imagenes/noti/noti_uno.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">3 errores comunes con el tueste de cafés de especialidad</h5>
+            <p class="card-text">Error #1. Modificar todas las variables de tu equipo sin una razón justificada e integral.</p>
+            <p class="card-text"><small class="text-body-secondary">Actualizado hace 2 dias</small> 
+              <!-- <a href="https://baristakim.es/5-errores-comunes-tueste-cafes-especialidad"  class="btn btn-outline-danger">Leer más</a> -->
+              <button id="notiUno"  class="btn btn-outline-danger" >Leer más</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./imagenes/noti/noti_dos.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">¿CÓMO IMPACTA LA FERMENTACIÓN DEL CAFÉ EN LA CALIDAD (Y SU SALUD)?</h5>
+            <p class="card-text">El proceso de fermentación tiene un impacto importante en la calidad, la durabilidad y las notas finales en taza, de manera que un café bien procesado puede mejorar su puntuación en cata y 
+              conseguir acceso al mercado de cafés especiales, aumentando su precio de venta.</p>
+            <p class="card-text"><small class="text-body-secondary">Actualizado hace 2 dias</small>
+              <a id="notiDos"  class="btn btn-outline-danger">Leer más</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./imagenes/noti/noti_tres.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Qué es el torrado</h5>
+            <p class="card-text"> Grano al que se agrega azúcar durante el proceso de tostado. | Debido a las altas temperaturas, el azúcar se carameliza, crea una película que.</p>
+            <p class="card-text"><small class="text-body-secondary">Actualizado hace 3 dias</small>
+              <a id="notiTres"  class="btn btn-outline-danger">Leer más</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./imagenes/noti/noti_cuatro.jpeg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">¿Sabría cómo identificar el mejor café?</h5>
+            <p class="card-text">Seguro que a lo largo de toda su vida se ha tomado cientos y cientos de cafés. Y seguro que más de uno no ha sido el</p>
+            <p class="card-text"><small class="text-body-secondary">Actualizado el 3 de Abril</small>
+              <a id="notiCuatro" class="btn btn-outline-danger">Leer más</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<br>
+    <div>
+      <br>
+       <h2>Envianos tu receta y participa por una <br> <strong> Prensa Francesa Bialetti </strong> </h2>
+
+    <form id="commentForm">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="comment">Mi Receta:</label>
+      <textarea id="comment" required></textarea>
+      <button type="submit">Participar</button>
+    </form>
+<br>
+    <img class="img-fluid" src="./imagenes/prensa-Francesa.jpg"  alt="prensa-Francesa-cafe-bialetti">
+    <br>
+  
+    </div>
+
+    <!--formulario de reseña-->
+
+    <!-- <h1>Dejanos tu reseñas o <br> compartí tus noticias</h1>
+
+    <form id="formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required><br>
+  
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" required></textarea><br>
+  
+      <button type="submit">Enviar</button>
+    </form>
+  
+    
+    Reseña Pantalla
+
+    <div id="mensajes">
+    </div> -->
+
+    
+
+
+<!--footer-->
+    <div class="form"></div>
+
+    <footer class="pie-pagina" id="footer">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="#">
+              <img src="./imagenes/logo.png" alt="logo_coffe_home">
+            </a>
+          </figure>
+       
+        <div class="box">
+          <h2>ENCONTRANOS EN LAS REDES  </h2>
+          <div class="red-social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small>&copy; Parcial I <b>Cynthia Aguirre</b>- PWA</small>
+      </div>
+    </footer>
+      
+        
+    
+        </main>
+    
+      
+        <script src="scrip.js"></script>
+        <script src="./serviceWorker-v2.js"></script>
+        <script src="./comentarios.js"></script>
+        <script src="./almacenamiento.js"></script>
+       
+
+
+
+</body>
+</html>

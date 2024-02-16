@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: #910000; */
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  background-color: #910000;
+  
+}
+ul  {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+}
+
+li a{
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+h1 {
+  color: #e74c3c;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 0;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 15rem auto;
+    height: 15rem;
+    background: #920000;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .card--avatar {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+  .card--title {
+    color: #222;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+  .card--link {
+    text-decoration: none;
+    background: #920f00;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+  }
+
+  .comunidad{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    /* background-color:#fff; */
+
+  }
+
+  .titulo-comu{
+    color: #910000;
+    font-style: oblique;
+
+  }
+
+  .p-comu{
+    padding: 10px;
+  }
+
+  .blog{
+    text-decoration: none;
+    /* color:#ffffff; */
+    background-color: #920000;
+    font-size: 20px;
+    padding: 20px;
+    width: 22px;
+    height: 20px;
+    font: 1em sans-serif;
+    font-style: oblique;
+    border-radius: none;
+  }
+
+  /*RESEÑAS*/
+.reseñas{
+  background-color: #920000;
+    padding: 10px;
+    margin-top: 20px;
+    margin: 5px 0;
+    /* color: #ffffff; */
+
+}
+ 
+
+  /*FOOTER*/
+
+  
+  .pie-pagina{
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    /* grid-template-columns: repeat(1); */
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 180px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: rgb(214, 180, 246);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: rgb(169, 5, 5);
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+    color: #ff4e4e;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(215, 0, 0);
+}
+
+.pie-pagina .grupo-2{
+    background-color:#e80000;
+    padding: 15px 10px;
+    text-align: center;
+    /* color: #fff; */
+}
+
+
+.formulario form{
+  background-color: #910000;
+  /* color: #fff; */
+}
+
+
+
+/*FORMULARIO*/
+
+
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+
+button[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	background-color:#910000;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    
+}
